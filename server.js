@@ -14,7 +14,7 @@ var optionsget = {
     path : '/customsearch/v1?key='+ key +'&cx='+ cx,
     method : 'GET'
 }
-//https://www.googleapis.com/customsearch/v1?key=AIzaSyDEWyftPNTCNRD5J37zeTWnuRtGt-9ozWM&cx=005819915415754972069:kmyahl68k9k&q=funny%20cat
+//https://www.googleapis.com/customsearch/v1?key=#hidden#WM&cx=#hidden#&q=funny%20cat
 app.get('/api/imagesearch/:search', function(req, res1) {
     var offset = parseInt(req.query.offset, 10)
     var search = decodeURI(req.params.search)
